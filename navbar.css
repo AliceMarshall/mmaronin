@@ -1,0 +1,11 @@
+.navbar-inverse {
+	color: rgb(128,128,128);
+	background: white;
+    background-color: white;
+}
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Cantarell', sans-serif;
+}
