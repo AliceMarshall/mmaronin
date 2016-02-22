@@ -1,11 +1,13 @@
-.navbar-inverse {
-	color: rgb(128,128,128);
-	background: white;
-    background-color: white;
-}
 body {
-	padding-top: 20px;
-	padding-bottom: 20px;
 	font-size: 20px;
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Palanquin', sans-serif;
+}
+.navbar-inverse {
+	background-color: black;
+}
+.navbar-header {
+	height: 80px;
+}
+ul .nav{
+    padding-top: 10px;
 }

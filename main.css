@@ -1,24 +1,17 @@
 body {
-	padding-top: 20px;
-	padding-bottom: 20px;
 	font-size: 20px;
 	font-family: 'Palanquin', sans-serif;
 }
-.navbar-inverse {
-	background-color: black;
+.jumbotron{
+	background-image: url("images/background.jpg") ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-attachment: fixed;
+  	padding: 180px;
 }
-h1{
-	font-color: white;
-}
-.jumbotron h1{
-	background-image: url("images/background.jpg");
-}
-header {
-	display: table;
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-td {
-	text-align: center;
+.jumbotron h1 {
+  	color: white;
+    margin-bottom: 1em;
+    text-align: center;
 }
