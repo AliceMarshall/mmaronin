@@ -1,6 +1,7 @@
 body {
 	font-size: 20px;
 	font-family: 'Palanquin', sans-serif;
+	background: black;
 }
 .jumbotron {
   background-image: url("images/background.jpg");
@@ -8,7 +9,8 @@ body {
   background-attachment: fixed;
   padding: 70px;
   padding-top: 280px;
-  margin-bottom: 30px;
+  padding-bottom: 200px;
+  margin-bottom: 60px;
 }
 .jumbotron h1 {
   	color: white;
@@ -18,19 +20,26 @@ body {
     text-align: center;
 }
 h2{
-	color: white;
-	padding-top: 450px;
+	color: black;
+	background: white;
 }
 #buzz {
 	text-align: center;
+	background: white;
 }
 p {
-	color: white;
+	color: black;
 }
 .twitter {
+	background-image: url("images/background.jpg");
 	text-align: center;
 	padding-top: 30px;
+	background-size: cover;
+  background-attachment: fixed;
 }
 p #small {
 	color: black;
+}
+footer {
+	background: black;
 }
