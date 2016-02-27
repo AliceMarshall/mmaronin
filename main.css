@@ -1,7 +1,7 @@
 body {
 	font-size: 20px;
 	font-family: 'Palanquin', sans-serif;
-	background: black;
+	background: white;
 }
 .jumbotron {
   background-image: url("images/background.jpg");
@@ -9,7 +9,7 @@ body {
   background-attachment: fixed;
   padding: 70px;
   padding-top: 280px;
-  padding-bottom: 200px;
+  padding-bottom: 280px;
   margin-bottom: 60px;
 }
 .jumbotron h1 {
@@ -21,11 +21,11 @@ body {
 }
 h2{
 	color: black;
-	background: white;
 }
 #buzz {
 	text-align: center;
 	background: white;
+	padding-bottom: 20px;
 }
 p {
 	color: black;
@@ -34,12 +34,42 @@ p {
 	background-image: url("images/background.jpg");
 	text-align: center;
 	padding-top: 30px;
+	padding-bottom: 30px;
 	background-size: cover;
-  background-attachment: fixed;
+  	background-attachment: fixed;
 }
 p #small {
 	color: black;
 }
+.section-title{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.section-title h2, .section-title.center h2 {
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+.section-title.center .line {
+    border-top: 4px solid #fb3958;
+    height: 10px;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.so-icons i {
+    border-radius: 50%;
+    padding: 10px;
+}
+.so-icons i {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
 footer {
-	background: black;
+	background: white;
+	padding-left: 10px;
 }
