@@ -11,31 +11,9 @@ body {
   font-size: 40px;
 }
 .table {
-  background-color: black;
-  border-color: white;
-  border-width: 5px;
-  color: rgb(200, 200, 200);
-  text-align: center;
-}
-th {
-  text-align: center;
-  font-size: 25px;
-  color: #fb3958;
-}
-.tod {
-  color: white;
-
-}
-td {
-  height: 100px;
-}
-.fb3958{
-  font-size: 25px;
-  height: 100px;
-  color: white;
-}
-.weekend {
-  background-color: rgb(50, 50, 50);
+  background-color: rgba(255,255,255,0.7);
+  border-color: transparent;
+  border-width: 4px;
 }
 .padding {
   padding: 50px;
