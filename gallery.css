@@ -16,15 +16,6 @@ body {
 .resize {
   border: 5px solid black;
 }
-.thumbnail:hover {
-    position:center;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
 p {
   padding-left: 30px;
 }
