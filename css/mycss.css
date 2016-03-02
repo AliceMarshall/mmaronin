@@ -1,3 +1,22 @@
+body {
+  font-size: 20px;
+  font-family: 'Palanquin', sans-serif;
+}
+.jumbotron {
+  padding: 30px;
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  background-color: white;
+  font-size: 40px;
+}
+.summary {
+    padding: 30px;
+    font-size: 20px;
+}
+strong {
+    font-size: 24px;
+}
 .bg-primary {
 	color:#000;
 	background-color:#fff;
@@ -7,18 +26,44 @@
 .team-member {
     margin-bottom: 50px;
 }
-
+.para {
+    padding: 30px;
+}
+.row {
+    padding: 100px;
+}
 .img-circle {
     border-radius: 50%;
 }
-
-.jumbotron{
-	background-color: #fff;
+.section-title{
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
-
-body {
-    color: #333;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857;
+.section-title h2, .section-title.center h2 {
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+.section-title.center .line {
+    border-top: 4px solid #fb3958;
+    height: 10px;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.so-icons i {
+    border-radius: 50%;
+    padding: 10px;
+}
+.so-icons i {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+footer {
+  background: white;
+  padding-left: 10px;
 }
